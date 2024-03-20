@@ -1,0 +1,184 @@
+1929,F,22,Janet Gaynor,7th Heaven
+1930,F,37,Mary Pickford,Coquette
+1931,F,28,Norma Shearer,The Divorcee
+1932,F,63,Marie Dressler,Min and Bill
+1933,F,32,Helen Hayes,The Sin of Madelon Claudet
+1934,F,26,Katharine Hepburn,Morning Glory
+1935,F,31,Claudette Colbert,It Happened One Night
+1936,F,27,Bette Davis,Dangerous
+1937,F,26,Luise Rainer,The Great Zeigfeld
+1938,F,27,Luise Rainer,The Good Earth
+1939,F,30,Bette Davis,Jezebel
+1940,F,26,Vivien Leigh,Gone With the Wind
+1941,F,29,Ginger Rogers,Kitty Foyle
+1942,F,24,Joan Fontaine,Suspicion
+1943,F,38,Greer Garson,Mrs. Miniver
+1944,F,24,Jennifer Jones,The Song of Bernadette
+1945,F,29,Ingrid Bergman,Gaslight
+1946,F,33,Joan Crawford,Mildred Pierce
+1947,F,30,Olivia de Havilland,To Each His Own
+1948,F,34,Loretta Young,The Farmer's Daughter
+1949,F,34,Jane Wyman,Johnny Belinda
+1950,F,33,Olivia de Havilland,The Heiress
+1951,F,29,Judy Holliday,Born Yesterday
+1952,F,38,Vivien Leigh,A Streetcar Named Desire
+1953,F,54,Shirley Booth,"Come Back, Little Sheba"
+1954,F,24,Audrey Hepburn,Roman Holiday
+1955,F,25,Grace Kelly,The Country Girl
+1956,F,47,Anna Magnani,The Rose Tattoo
+1957,F,41,Ingrid Bergman,Anastasia
+1958,F,27,Joanne Woodward,The Three Faces of Eve
+1959,F,41,Susan Hayward,I Want to Live!
+1960,F,38,Simone Signoret,Room at the Top
+1961,F,28,Elisabeth Taylor,Butterfield 8
+1962,F,27,Sophia Loren,Two Women
+1963,F,31,Anne Bancroft,The Miracle Worker
+1964,F,37,Patricia Neal,Hud
+1965,F,29,Julie Andrews,Mary Poppins
+1966,F,25,Julie Christie,Darling
+1967,F,34,Elizabeth Taylor,Who's Afraid of Virginia Wolf
+1968,F,60,Katharine Hepburn,Guess Who's Coming to Dinner
+1969,F,26,Barbra Streisand,Funny Girl
+1969,F,61,Katharine Hepburn,The Lion in Winter
+1970,F,35,Maggie Smith,The Prime of Miss Jean Brodie
+1971,F,34,Glenda Jackson,Women In Love
+1972,F,34,Jane Fonda,Klute
+1973,F,26,Liza Minnelli,Cabaret
+1974,F,37,Glenda Jackson,A Touch of Class
+1975,F,42,Ellen Burstyn,Alice Doesn't Live Here Anymore
+1976,F,41,Louise Fletcher,One Flew Over the Cockoo's Nest
+1977,F,35,Faye Dunaway,Network
+1978,F,31,Diane Keaton,Annie Hall
+1979,F,41,Jane Fonda,Coming Home
+1980,F,33,Sally Field,Norma Rae
+1981,F,31,Sissy Spacek,Coal Miner's Daughter
+1982,F,74,Katharine Hepburn,On Golden Pond
+1983,F,33,Meryl Streep,Sophies Choice
+1984,F,49,Shirley MacLaine,Terms of Endearment
+1985,F,38,Sally Field,Places in the Heart
+1986,F,61,Geraldine Page,Trip to Bountiful
+1987,F,21,Marlee Matlin,Children of a Lesser God
+1988,F,41,Cher,Moonstruck
+1989,F,26,Jodie Foster,The Accused
+1990,F,80,Jessica Tandy,Driving Miss Daisy
+1991,F,42,Kathy Bates,Misery
+1992,F,29,Jodie Foster,The Silence of the Lambs
+1993,F,33,Emma Thompson,Howards End
+1994,F,35,Holly Hunter,The Piano
+1995,F,45,Jessica Lange,Blue Sky
+1996,F,49,Susan Sarandon,Dead Man Walking
+1997,F,39,Frances McDormand,Fargo
+1998,F,34,Helen Hunt,As Good As It Gets
+1999,F,26,Gwyneth Paltrow,Shakespeare in Love
+2000,F,25,Hilary Swank,Boys Don't Cry
+2001,F,33,Julia Roberts,Erin Brockovich
+2002,F,35,Halle Berry,Monster's Ball
+2003,F,35,Nicole Kidman,The Hours
+2004,F,28,Charlize Theron,Monster
+2005,F,30,Hilary Swank,Million Dollar Baby
+2006,F,29,Reese Witherspoon,Walk the Line
+2007,F,61,Helen Mirren,The Queen
+2008,F,32,Marion Cotillard,La Vie en Rose
+2009,F,33,Kate Winslet,The Reader
+2010,F,45,Sandra Bullock,The Blind Side
+2011,F,29,Natalie Portman,Black Swan
+2012,F,62,Meryl Streep,The Iron Lady
+1929,M,44,Emil Jannings,The Way of All Flesh & The Las
+1930,M,40,Warner Baxter,In Old Arizona
+1931,M,62,George Arliss,Disraeli
+1932,M,53,Lionel Barrymore,A Free Soul
+1933,M,35,Fredric March,Dr. Jekyll and Mr. Hyde
+1933,M,47,Wallace Beery,The Champ
+1934,M,34,Charles Laughton,The Private Life of Henry VIII
+1935,M,33,Clark Gable,It Happened One Night
+1936,M,52,Victor McLaglen,The Informer
+1937,M,41,Paul Muni,The Story of Louis Pasteur
+1938,M,37,Spencer Tracy,Captains Courageous
+1939,M,38,Spencer Tracy,Boys Town
+1940,M,34,Robert Donat,"Goodbye, Mr. Chips"
+1941,M,32,James Stewart,The Philadelphia Story
+1942,M,40,Gary Cooper,Sergeant York
+1943,M,43,James Cagney,Yankee Doodle Dandy
+1944,M,48,Paul Lukas,Watch on the Rhine
+1945,M,41,Bing Crosby,Going My Way
+1946,M,40,Ray Milland,The Lost Weekend
+1947,M,49,Fredric March,The Best Years of Our Lives
+1948,M,56,Ronald Colman,A Double Life
+1949,M,41,Laurence Olivier,Hamlet
+1950,M,38,Broderick Crawford,All the King's Men
+1951,M,41,Jose Ferrer,Cyrano de Bergerac
+1952,M,52,Humphrey Bogart,The African Queen
+1953,M,51,Gary Cooper,High Noon
+1954,M,35,William Holden,Stalag 17
+1955,M,30,Marlon Brando,On The Waterfront
+1956,M,38,Ernest Borgnine,Marty
+1957,M,41,Yul Brynner,The King and I
+1958,M,43,Alec Guinness,The Bridge On The River Kwai
+1959,M,48,David Niven,Separate Tables
+1960,M,36,Charlton Heston,Ben-Hur
+1961,M,47,Burt Lancaster,Elmer Gantry
+1962,M,31,Maximilian Schell,Judgment at Nuremburg
+1963,M,46,Gregory Peck,To Kill a Mockingbird
+1964,M,36,Sidney Poitier,Lilies of the Field
+1965,M,56,Rex Harrison,My Fair Lady
+1966,M,41,Lee Marvin,Cat Ballou
+1967,M,44,Paul Scofield,A Man for All Seasons
+1968,M,42,Rod Steiger,In the Heat of the Night
+1969,M,43,Cliff Robertson,Charly
+1970,M,62,John Wayne,True Grit
+1971,M,43,George C. Scott,Patton
+1972,M,41,Gene Hackman,The French Connection
+1973,M,48,Marlon Brando,The Godfather
+1974,M,48,Jack Lemmon,Save the Tiger
+1975,M,56,Art Carney,Harry and Tonto
+1976,M,38,Jack Nicholson,One Flew Over The Cuckoo's Nes
+1977,M,60,Peter Finch,Network
+1978,M,30,Richard Dreyfuss,The Goodbye Girl
+1979,M,40,Jon Voight,Coming Home
+1980,M,42,Dustin Hoffman,Kramer vs. Kramer
+1981,M,37,Robert De Niro,Raging Bull
+1982,M,76,Henry Fonda,On Golden Pond
+1983,M,39,Ben Kingsley,Ghandi
+1984,M,52,Robert Duvall,Tender Mercies
+1985,M,45,F. Murray Abraham,Amadeus
+1986,M,35,William Hurt,Kiss of the Spider Woman
+1987,M,61,Paul Newman,The Color of Money
+1988,M,43,Michael Douglas,Wall Street
+1989,M,51,Dustin Hoffman,Rain Man
+1990,M,32,Daniel Day-Lewis,My Left Foot
+1991,M,42,Jeremy Irons,Reversal of Fortune
+1992,M,54,Anthony Hopkins,The Silence of the Lambs
+1993,M,52,Al Pacino,Scent of a Woman
+1994,M,37,Tom Hanks,Philadelphia
+1995,M,38,Tom Hanks,Forest Gump
+1996,M,31,Nicolas Cage,Leaving Las Vegas
+1997,M,45,Geoffrey Rush,Shine
+1998,M,60,Jack Nicholson,As Good as It Gets
+1999,M,46,Roberto Benigni,Life is Beautiful
+2000,M,40,Kevin Spacey,American Beauty
+2001,M,36,Russell Crowe,Gladiator
+2002,M,47,Denzel Washington,Training Day
+2003,M,29,Adrien Brody,The Pianist
+2004,M,43,Sean Penn,Mystic River
+2005,M,37,Jamie Foxx,Ray
+2006,M,38,Philip Hoffman,Capote
+2007,M,45,Forest Whitaker,The Last King of Scotland
+2008,M,50,Daniel Day-Lewis,There Will Be Blood
+2009,M,48,Sean Penn,Milk
+2010,M,60,Jeff Bridges,Crazy Heart
+2011,M,50,Colin Firth,The King's Speech
+2012,M,39,Jean Dujardin,The Artist
+2013,F,22,Jennifer Lawrence,Silver Linings Playbook
+2014,F,44,Cate Blanchett,Blue Jasmine
+2015,F,54,Julianne Moore,Still Alice
+2016,F,26,Brie Larson,Room
+2017,F,28,Emma Stone,La La Land
+2018,F,60,Frances McDormand,Three Billboards Outside of Ebbing Missouri
+2019,F,44,Olivia Colman,The Favourite
+2013,M,55,Daniel Day-Lewis,Lincoln
+2014,M,44,Matthew McConaughey,Dallas Buyers Club
+2015,M,32,Eddie Redmayne,The Theory of Everything
+2016,M,41,Leonardo Di Caprio,The Revenant
+2017,M,41,Casey Affleck,Manchester by the Sa
+2018,M,59,Gary Oldman,Darkest Hour
+2019,M,37,Rami Malek,Bohemian Rhapsody

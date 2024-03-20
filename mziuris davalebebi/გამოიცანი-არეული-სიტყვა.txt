@@ -1,0 +1,51 @@
+import random
+
+random_words = ["კომპიუტერი", "დამატებით", "პროგრამირება", "შემთხვევით", "სიტყვა", "გამოთვალეთ", "სკრიპტი", "პროექტი", "გამოიყენეთ", "ბიბლიოთეკა"]
+
+random_word = random.choice(random_words)
+print(random_word)
+
+import random
+
+random_word = 'your_random_word'
+
+word_list = list(random_word)
+
+random.shuffle(word_list)
+
+jumbled = ''.join(word_list)
+
+print(f'Original Word: {random_word}')
+print(f'Jumbled Word: {jumbled}')
+
+
+import random
+
+def play_word_jumble():
+    word_list = ["python", "jumble", "gpt", "coding", "challenge"]
+
+    original_word = random.choice(word_list)
+
+    jumbled_word = list(original_word)
+    random.shuffle(jumbled_word)
+    jumbled_word = ''.join(jumbled_word)
+
+    print("Jumbled word:", jumbled_word)
+
+    guess = input("Your guess: ")
+
+    if guess == original_word:
+        print("Congratulations! That's the correct word.")
+    else:
+        print(f"Sorry, the correct word was {original_word}.")
+
+play_word_jumble()
+
+while True:
+    user_input = input("Enter a command (type 'quit' to exit): ")
+
+    if user_input == 'quit':
+        print("Thanks for playing! Exiting the game.")
+        break
+    else:
+        print(f"entered word: {user_input}")
