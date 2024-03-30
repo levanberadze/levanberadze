@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 2;
+    background-color: #230f56;
+    color: #ffffff;
+}
+
+.h1 {
+    text-align: center;
+}
+
+header {
+    background-color: #110f23;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 17px;
+    background-color: #240A34;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
