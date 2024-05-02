@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOKS</title>
+</head>
+<body>
+    <h1>BOOKS</h1>
+    <ul>
+        {% for book in books %}
+            <li><a href="/book/{{ book.book_id }}">{{ book.title }} Author {{ book.Author }}</a></li>
+        {% endfor %}
+    </ul>
+    <a href="/add_book">add book</a>
+</body>
+</html>
