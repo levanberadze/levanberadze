@@ -1,0 +1,4 @@
+{% for article in articles %}
+<a href="{% url 'view_article' article.id %}">{{article.name}}</a>
+<br/>
+{% endfor %}
