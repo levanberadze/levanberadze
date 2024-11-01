@@ -1,0 +1,9 @@
+name: {{ post.name }}
+<br>
+{{ post.description }}
+<br>
+views: {{ post.views }}
+<br>
+published: {{ post.is_published }}
+<br>
+<a href="{% url 'posts' %}">go back</a>
