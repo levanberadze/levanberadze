@@ -1,0 +1,11 @@
+<h1>Course List</h1>
+<a href="{% url 'course_create' %}">Create New Course</a>
+<ul>
+    {% for course in courses %}
+        <li>
+            <a href="{% url 'course_detail' course.id %}">{{ course.name }}</a>
+            (<a href="{% url 'course_update' course.id %}">Edit</a>)
+            (<a href="{% url 'course_delete' course.id %}">Delete</a>)
+        </li>
+    {% endfor %}
+</ul>
