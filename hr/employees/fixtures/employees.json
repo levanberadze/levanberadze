@@ -1,0 +1,252 @@
+[
+    {
+        "model": "employees.employee",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "job_title": "Software Developer",
+            "salary": 60000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 2,
+        "fields": {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "job_title": "Product Manager",
+            "salary": 75000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 3,
+        "fields": {
+            "first_name": "Michael",
+            "last_name": "Johnson",
+            "job_title": "UX Designer",
+            "salary": 65000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 4,
+        "fields": {
+            "first_name": "Emily",
+            "last_name": "Davis",
+            "job_title": "Data Analyst",
+            "salary": 70000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 5,
+        "fields": {
+            "first_name": "Chris",
+            "last_name": "Brown",
+            "job_title": "Marketing Specialist",
+            "salary": 55000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 6,
+        "fields": {
+            "first_name": "Sarah",
+            "last_name": "Williams",
+            "job_title": "HR Manager",
+            "salary": 80000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 7,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Jones",
+            "job_title": "Software Engineer",
+            "salary": 90000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 8,
+        "fields": {
+            "first_name": "Olivia",
+            "last_name": "Miller",
+            "job_title": "Sales Executive",
+            "salary": 50000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 9,
+        "fields": {
+            "first_name": "Daniel",
+            "last_name": "Taylor",
+            "job_title": "Operations Manager",
+            "salary": 85000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 10,
+        "fields": {
+            "first_name": "Sophia",
+            "last_name": "Anderson",
+            "job_title": "Project Coordinator",
+            "salary": 60000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 11,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Thomas",
+            "job_title": "Accountant",
+            "salary": 55000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 12,
+        "fields": {
+            "first_name": "Isabella",
+            "last_name": "Jackson",
+            "job_title": "Business Analyst",
+            "salary": 75000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 13,
+        "fields": {
+            "first_name": "James",
+            "last_name": "White",
+            "job_title": "Customer Support",
+            "salary": 45000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 14,
+        "fields": {
+            "first_name": "Mia",
+            "last_name": "Harris",
+            "job_title": "Graphic Designer",
+            "salary": 65000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 15,
+        "fields": {
+            "first_name": "Benjamin",
+            "last_name": "Martin",
+            "job_title": "Web Developer",
+            "salary": 70000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 16,
+        "fields": {
+            "first_name": "Charlotte",
+            "last_name": "Lee",
+            "job_title": "Product Designer",
+            "salary": 72000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 17,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "García",
+            "job_title": "Sales Manager",
+            "salary": 85000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 18,
+        "fields": {
+            "first_name": "Amelia",
+            "last_name": "Martinez",
+            "job_title": "Software Developer",
+            "salary": 95000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 19,
+        "fields": {
+            "first_name": "Lucas",
+            "last_name": "Rodriguez",
+            "job_title": "Security Engineer",
+            "salary": 78000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 20,
+        "fields": {
+            "first_name": "Evelyn",
+            "last_name": "Lopez",
+            "job_title": "Office Manager",
+            "salary": 62000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 21,
+        "fields": {
+            "first_name": "Liam",
+            "last_name": "Gonzalez",
+            "job_title": "Full Stack Developer",
+            "salary": 105000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 22,
+        "fields": {
+            "first_name": "Avery",
+            "last_name": "Wilson",
+            "job_title": "Product Owner",
+            "salary": 82000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 23,
+        "fields": {
+            "first_name": "Ella",
+            "last_name": "Moore",
+            "job_title": "Data Scientist",
+            "salary": 90000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 24,
+        "fields": {
+            "first_name": "Jack",
+            "last_name": "Taylor",
+            "job_title": "Marketing Manager",
+            "salary": 95000
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 25,
+        "fields": {
+            "first_name": "Grace",
+            "last_name": "Anderson",
+            "job_title": "Legal Counsel",
+            "salary": 98000
+        }
+    }
+]
