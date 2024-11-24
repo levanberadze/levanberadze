@@ -1,0 +1,26 @@
+[
+    {
+        "model": "books.author",
+        "pk": 1,
+        "fields": {
+            "name": "Author One"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 1,
+        "fields": {
+            "name": "Fiction"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "Book One",
+            "description": "This is a description of Book One.",
+            "author": 1,
+            "rating": 7
+        }
+    }
+]
