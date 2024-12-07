@@ -1,0 +1,282 @@
+[
+  {
+    "model": "inventory.category",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "description": "Devices like smartphones, laptops, etc."
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 2,
+    "fields": {
+      "name": "Clothing",
+      "description": "Apparel for men, women, and children."
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 3,
+    "fields": {
+      "name": "inventory",
+      "description": "Printed and digital inventory for reading."
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 4,
+    "fields": {
+      "name": "Home Appliances",
+      "description": "Appliances for the home like fridges, microwaves, etc."
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 5,
+    "fields": {
+      "name": "Furniture",
+      "description": "Various furniture items like chairs, tables, etc."
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 1,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Latest model with great features.",
+      "price": 699.99,
+      "stock_quantity": 150,
+      "rating": 4.5,
+      "category": 1
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 2,
+    "fields": {
+      "name": "Laptop",
+      "description": "Powerful laptop for work and gaming.",
+      "price": 1299.99,
+      "stock_quantity": 100,
+      "rating": 4.7,
+      "category": 1
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 3,
+    "fields": {
+      "name": "T-shirt",
+      "description": "Comfortable cotton t-shirt.",
+      "price": 19.99,
+      "stock_quantity": 200,
+      "rating": 4.2,
+      "category": 2
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 4,
+    "fields": {
+      "name": "Jeans",
+      "description": "Stylish and comfortable jeans.",
+      "price": 39.99,
+      "stock_quantity": 180,
+      "rating": 4.3,
+      "category": 2
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 5,
+    "fields": {
+      "name": "Novel: The Great Gatsby",
+      "description": "Classic American novel.",
+      "price": 9.99,
+      "stock_quantity": 300,
+      "rating": 4.8,
+      "category": 3
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 6,
+    "fields": {
+      "name": "Refrigerator",
+      "description": "Energy-efficient refrigerator.",
+      "price": 499.99,
+      "stock_quantity": 50,
+      "rating": 4.6,
+      "category": 4
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 7,
+    "fields": {
+      "name": "Sofa",
+      "description": "Comfortable 3-seater sofa.",
+      "price": 799.99,
+      "stock_quantity": 20,
+      "rating": 4.7,
+      "category": 5
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 8,
+    "fields": {
+      "name": "Table Lamp",
+      "description": "Stylish table lamp for the bedroom.",
+      "price": 29.99,
+      "stock_quantity": 100,
+      "rating": 4.4,
+      "category": 5
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 9,
+    "fields": {
+      "name": "Microwave Oven",
+      "description": "Compact microwave oven for quick cooking.",
+      "price": 119.99,
+      "stock_quantity": 75,
+      "rating": 4.5,
+      "category": 4
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 10,
+    "fields": {
+      "name": "Smartwatch",
+      "description": "Wearable technology for fitness and time.",
+      "price": 199.99,
+      "stock_quantity": 120,
+      "rating": 4.6,
+      "category": 1
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 11,
+    "fields": {
+      "name": "Headphones",
+      "description": "Noise-cancelling wireless headphones.",
+      "price": 129.99,
+      "stock_quantity": 250,
+      "rating": 4.7,
+      "category": 1
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 12,
+    "fields": {
+      "name": "Washing Machine",
+      "description": "High-efficiency washing machine.",
+      "price": 399.99,
+      "stock_quantity": 45,
+      "rating": 4.6,
+      "category": 4
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 13,
+    "fields": {
+      "name": "Dress",
+      "description": "Elegant evening dress.",
+      "price": 89.99,
+      "stock_quantity": 90,
+      "rating": 4.3,
+      "category": 2
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 14,
+    "fields": {
+      "name": "Blender",
+      "description": "High-performance kitchen blender.",
+      "price": 79.99,
+      "stock_quantity": 60,
+      "rating": 4.4,
+      "category": 4
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 15,
+    "fields": {
+      "name": "E-Book Reader",
+      "description": "Portable device for reading e-inventory.",
+      "price": 129.99,
+      "stock_quantity": 150,
+      "rating": 4.8,
+      "category": 3
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 16,
+    "fields": {
+      "name": "Camera",
+      "description": "High-resolution digital camera.",
+      "price": 499.99,
+      "stock_quantity": 30,
+      "rating": 4.7,
+      "category": 1
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 17,
+    "fields": {
+      "name": "inventoryhelf",
+      "description": "Wooden inventoryhelf for storing inventory.",
+      "price": 59.99,
+      "stock_quantity": 80,
+      "rating": 4.3,
+      "category": 5
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 18,
+    "fields": {
+      "name": "Yoga Mat",
+      "description": "Non-slip yoga mat for workouts.",
+      "price": 24.99,
+      "stock_quantity": 220,
+      "rating": 4.5,
+      "category": 5
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 19,
+    "fields": {
+      "name": "Fan",
+      "description": "Portable fan for cooling.",
+      "price": 19.99,
+      "stock_quantity": 250,
+      "rating": 4.2,
+      "category": 4
+    }
+  },
+  {
+    "model": "inventory.product",
+    "pk": 20,
+    "fields": {
+      "name": "Tennis Racket",
+      "description": "High-quality tennis racket.",
+      "price": 89.99,
+      "stock_quantity": 40,
+      "rating": 4.6,
+      "category": 5
+    }
+  }
+]
