@@ -1,14 +1,14 @@
 [
     {
         "model": "products.product",
-        "pk": 1,
+        "pk": 17,
         "fields": {
             "name": "Product 1",
             "price": "10.99",
             "description": "This is the description for Product 1.",
             "create_date": "2024-12-09T00:00:00Z",
             "views": 120,
-            "stock_qty": 50
+            "stock_qty": 0
         }
     },
     {

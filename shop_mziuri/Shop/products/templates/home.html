@@ -4,28 +4,27 @@
 <form class="row g-3">
     <div class="col-md-6">
         <label for="product_name" class="form-label">Product Name</label>
-        <input type="text" class="form-control" id="product_name">
+        <input type="text" class="form-control" id="product_name" name="product_name">
     </div>
     <div class="col-md-3">
         <label for="min_price" class="form-label">Min Price</label>
-        <input type="number" class="form-control" id="min_price">
+        <input type="number" class="form-control" id="min_price" name="min_price">
+    </div>
+    <div class="col-6">
+        <label for="in_stock" class="form-label">In Stock</label>
+        <input type="checkbox" class="" id="in_stock" name="in_stock">
     </div>
     <div class="col-md-3">
         <label for="max_price" class="form-label">Max Price</label>
-        <input type="number" class="form-control" id="max_price">
-    </div>
-    <div class="col-6">
-        <label for="inputAddress" class="form-label">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <input type="number" class="form-control" id="max_price" name="max_price">
     </div>
     <div class="col-md-6">
         <label for="inputState" class="form-label">Category</label>
-        <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>Clothes</option>
-            <option>Shoes</option>
-            <option>Camping</option>
-            <option>Electronics</option>
+        <select id="inputState" name="category" class="form-select">
+            <option disabled selected>Choose...</option>
+            {% for category in categories %}
+                <option value="{{ category.id }}"> {{ category.name }}</option>
+            {% endfor %}
         </select>
     </div>
     <div class="col-12">
