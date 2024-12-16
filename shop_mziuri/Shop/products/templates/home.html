@@ -38,7 +38,7 @@
         {% for product in products %}
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://static.wikia.nocookie.net/shrek/images/5/5a/Shrek_superslam.png/revision/latest/scale-to-width-down/381?cb=20100927010617" class="card-img-top" alt="{{ product.name }}">
+                    <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
                     <div class="card-body">
                         <h5 class="card-title">{{ product.name }}</h5>
                         <p class="card-text fw-bold">{{ product.price }} $</p>

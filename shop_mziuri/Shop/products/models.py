@@ -14,6 +14,7 @@ class Product(models.Model):
     views = models.IntegerField(default=0)
     stock_qty = models.IntegerField(default=0)
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, related_name='products', null=True)
+    image = models.ImageField(upload_to='products/', default='default.jpg')
 
     def __str__(self):
         return self.name
