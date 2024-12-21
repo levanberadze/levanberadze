@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Product, Category
 from .forms import ProductForm
+from django.contrib import messages
 
 
 def home(request):
@@ -49,3 +50,26 @@ def create_product(request):
             return redirect('home')
 
     return render(request, 'product_form.html', {'form': form})
+
+
+def product_update(request, id):
+    product = get_object_or_404(Product, id=id)
+    form = ProductForm()
+
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            messages.success(request, f'Product {product.name} Has Been Updated Successfully')
+            return redirect('product_detail', id=id)
+    return render(request, 'product_form.html', {'form': form, 'product': product})
+
+
+def product_delete(request, id):
+    product = get_object_or_404(Product, id=id)
+    if request.method == 'POST':
+        product.delete()
+        messages.success(request, f'Product {product.name} Has Been Deleted Successfully')
+        return redirect('home')
+
+
