@@ -49,5 +49,28 @@
             </div>
         {% endfor %}
     </div>
+    <center>
+        {%if products.has_previous %} {# whether the previous page exists #}
+        <a href="?page={{products.previous_page_number}}"><</a> {# link to the prev page #}
+        {% endif %}
+        <span>{{products.number}}</span> {# the current page number #}
+
+        {%if products.has_next %} {# whether the next page exists #}
+        <a href="?page={{products.next_page_number}}">></a> {# link to the next page #}
+        {% endif %}
+    </center>
+    <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+        <ul class="pagination">
+            {%if products.has_previous %}
+            <li class="page-item"><a class="page-link" href="?page=1">First</a></li>
+            <li class="page-item"><a class="page-link" href="?page={{products.previous_page_number}}">{{products.previous_page_number}}</a></li>
+            {% endif %}
+            <li class="page-item"><a class="page-link" href="#">{{products.number}}</a></li>
+            {% if products.has_next %}
+            <li class="page-item"><a class="page-link" href="?page={{products.next_page_number}}">{{products.next_page_number}}</a></li>
+            {% endif %}
+            <li class="page-item"><a class="page-link" href="?page={{num_pages}}">Last</a></li>
+        </ul>
+    </nav>
 </div>
 {% endblock %}

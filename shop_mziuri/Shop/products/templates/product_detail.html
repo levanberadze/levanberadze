@@ -13,6 +13,7 @@
           <p> 09/12/2024 16:28 </p>
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">Description: {{ product.description }}</p>
+          <a class="btn btn-success" href="{% url 'add_to_cart' product.id %}">Add To Cart</a>
           <form action="{% url 'product_update' product.id %}" method="post">
             {% csrf_token %}
             <button type="submit" class="btn btn-primary">Update</button>

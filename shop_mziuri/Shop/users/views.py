@@ -10,7 +10,7 @@ def register_view(request):
         form = UserRegisterForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            username = form.cleaned_data.get()
+            username = form.cleaned_data.get('username')
             messages.add_message((request, messages.SUCCESS, f'User For {username} Has Been Created Successfully'))
             return redirect('home')
 

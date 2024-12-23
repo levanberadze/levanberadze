@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{cart.user}}</h1>
+{% for item in cart.cart_items.all %}
+  {{ item.product.name }}, {{ item.product.price }}, {{ item.qty }}
+  <br>
+{% endfor %}
+{% endblock %}

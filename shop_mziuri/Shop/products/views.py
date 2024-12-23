@@ -1,7 +1,9 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Product, Category
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from .models import Product, Category, Cart, CartItem
 from .forms import ProductForm
 from django.contrib import messages
+
 
 
 def home(request):
@@ -30,6 +32,18 @@ def home(request):
         filters['category'] = category
 
     products = Product.objects.filter(**filters)
+
+    paginator_obj = Paginator(products, 2)
+
+    page_number = request.GET.get('page')
+    try:
+        products = paginator_obj.get_page(page_number)
+    except PageNotAnInteger:
+        products = paginator_obj.page(1)
+    except EmptyPage:
+        products = paginator_obj.page(paginator_obj.num_pages)
+
+
 
     categories = Category.objects.all()
 
@@ -73,3 +87,12 @@ def product_delete(request, id):
         return redirect('home')
 
 
+def cart_view(request):
+    cart, created = Cart.objects.get_or_create(user=request.user)
+    return render(request, 'cart.html', context={'cart': cart})
+
+
+def add_to_cart(request, id):
+    product = get_object_or_404(Product, id=id)
+    cart_item = CartItem.objects.create(product=product, cart=request.user.cart)
+    return redirect('product_detail', id=id)
