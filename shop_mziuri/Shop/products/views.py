@@ -5,7 +5,6 @@ from .forms import ProductForm
 from django.contrib import messages
 
 
-
 def home(request):
     product_name = request.GET.get('product_name')
     min_price = request.GET.get('min_price')
@@ -14,7 +13,6 @@ def home(request):
     in_stock = request.GET.get('in_stock')
 
     filters = dict()
-
 
     if product_name:
         filters['name__icontains'] = product_name
@@ -42,8 +40,6 @@ def home(request):
         products = paginator_obj.page(1)
     except EmptyPage:
         products = paginator_obj.page(paginator_obj.num_pages)
-
-
 
     categories = Category.objects.all()
 
@@ -93,6 +89,25 @@ def cart_view(request):
 
 
 def add_to_cart(request, id):
+    cart, created = Cart.objects.get_or_create(user=request.user)
     product = get_object_or_404(Product, id=id)
-    cart_item = CartItem.objects.create(product=product, cart=request.user.cart)
+
+    if product.stock_qty < 1:
+        messages.error(request, f'Product {product.name} is not available')
+        return redirect('product_detail', id=id)
+
+    cart_item, created = CartItem.objects.get_or_create(cart=cart, product=product)
+
+    if not created:
+        cart_item.qty += 1
+        cart_item.save()
     return redirect('product_detail', id=id)
+
+
+def delete_cart_item(request, id):
+    item = get_object_or_404(CartItem, id=id)
+    item.delete()
+    return redirect('cart_view')
+
+
+
