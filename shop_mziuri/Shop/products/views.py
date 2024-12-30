@@ -11,6 +11,7 @@ def home(request):
     max_price = request.GET.get('max_price')
     category = request.GET.get('category')
     in_stock = request.GET.get('in_stock')
+    sort_option = request.GET.get('sort')
 
     filters = dict()
 
@@ -30,6 +31,9 @@ def home(request):
         filters['category'] = category
 
     products = Product.objects.filter(**filters)
+
+    if sort_option:
+        products = products.order_by(sort_option)
 
     paginator_obj = Paginator(products, 2)
 

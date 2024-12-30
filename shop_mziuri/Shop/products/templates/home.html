@@ -27,10 +27,23 @@
             {% endfor %}
         </select>
     </div>
+
+    <form method="get">
+    <label for="sort">Sort</label>
+    <select name="sort" id="sort" onchange="this.form.submit()">
+        <option value="">Choose...</option>
+        <option value="price">Price: lowest first</option>
+        <option value="-price">Price: highest first</option>
+        <option value="name">Date: newest first</option>
+        <option value="-name">Date: oldest first</option>
+    </select>
+</form>
+
     <div class="col-12">
         <button type="submit" class="btn btn-primary">Search</button>
     </div>
 </form>
+
 
 
 <div class="container">
