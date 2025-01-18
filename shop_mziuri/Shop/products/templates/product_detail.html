@@ -12,6 +12,7 @@
           <p class="me-3">Views: {{ product.views }} </p>
           <p> 09/12/2024 16:28 </p>
           <h5 class="card-title">{{ product.name }}</h5>
+          <h5 class="card-title">{{ product.stock_qty }}</h5>
           <p class="card-text">Description: {{ product.description }}</p>
           <a class="btn btn-success btn-sm mt=3" href="{% url 'add_to_cart' product.id %}">Add To Cart</a>
           <form action="{% url 'product_update' product.id %}" method="post">

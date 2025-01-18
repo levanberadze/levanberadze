@@ -68,7 +68,7 @@ def create_product(request):
 
 def product_update(request, id):
     product = get_object_or_404(Product, id=id)
-    form = ProductForm()
+    form = ProductForm(instance=product)
 
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES, instance=product)

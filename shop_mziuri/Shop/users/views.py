@@ -11,7 +11,7 @@ def register_view(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
-            messages.add_message((request, messages.SUCCESS, f'User For {username} Has Been Created Successfully'))
+            messages.add_message(request, messages.SUCCESS, f'User For {username} Has Been Created Successfully')
             return redirect('home')
 
     return render(request, 'user_form.html', {'form': form})
