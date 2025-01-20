@@ -1,3 +1,5 @@
+from itertools import product
+
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .models import Product, Category, Cart, CartItem
@@ -112,6 +114,18 @@ def delete_cart_item(request, id):
     item = get_object_or_404(CartItem, id=id)
     item.delete()
     return redirect('cart_view')
+
+
+def confirm_purchase(request):
+    cart, created = Cart.objects.get_or_create(user=request.user)
+    for item in cart.cart_items.all():
+        product = item.product
+        product.stock_qty -= item.qty
+        product.save()
+        cart.delete()
+    messages.success(request, 'Purchase Completed!')
+    return redirect('home')
+
 
 
 

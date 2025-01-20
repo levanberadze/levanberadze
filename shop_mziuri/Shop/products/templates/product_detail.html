@@ -4,25 +4,35 @@
 <div class="card mb-3 mt-4">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="https://static.wikia.nocookie.net/shrek/images/5/5a/Shrek_superslam.png/revision/latest/scale-to-width-down/381?cb=20100927010617" class="img-fluid rounded-start" alt="...">
+      <img src="https://static.wikia.nocookie.net/shrek/images/5/5a/Shrek_superslam.png/revision/latest/scale-to-width-down/381?cb=20100927010617"
+           class="img-fluid rounded-start"
+           alt="Product Image">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <div class="d-flex">
-          <p class="me-3">Views: {{ product.views }} </p>
-          <p> 09/12/2024 16:28 </p>
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between mb-3">
+            <p class="me-3">Views: {{ product.views }}</p>
+            <p class="text-muted">09/12/2024 16:28</p>
+          </div>
+
           <h5 class="card-title">{{ product.name }}</h5>
-          <h5 class="card-title">{{ product.stock_qty }}</h5>
-          <p class="card-text">Description: {{ product.description }}</p>
-          <a class="btn btn-success btn-sm mt=3" href="{% url 'add_to_cart' product.id %}">Add To Cart</a>
-          <form action="{% url 'product_update' product.id %}" method="post">
-            {% csrf_token %}
-            <button type="submit" class="btn btn-primary">Update</button>
-          </form>
-          <form action="{% url 'product_delete' product.id %}" method="post">
-            {% csrf_token %}
-            <button type="submit" class="btn btn-danger">Delete</button>
-          </form>
+          <p class="card-text"><strong>Stock Quantity:</strong> {{ product.stock_qty }}</p>
+          <p class="card-text"><strong>Description:</strong> {{ product.description }}</p>
+
+          <div class="d-flex gap-2 mt-3">
+            <a class="btn btn-success btn-sm" href="{% url 'add_to_cart' product.id %}">Add to Cart</a>
+
+            <form action="{% url 'product_update' product.id %}" method="post" class="mb-0">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-primary btn-sm">Update</button>
+            </form>
+
+            <form action="{% url 'product_delete' product.id %}" method="post" class="mb-0">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
